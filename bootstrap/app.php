@@ -28,5 +28,7 @@ $container = new \Slim\Container($configuration);
 // inicializamos la app
 $app = new \Slim\App($container);
 
+$app->add(new Slim_Middleware_ContentTypes());
+
 require __DIR__ . "/../app/container.php";
 require __DIR__ ."/../app/routes.php";

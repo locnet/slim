@@ -18,9 +18,12 @@ class BookingResponseTest
 
 	public function index($request, $response)
     {
-    	$r = new XmlTestResponse();
-    	$s = $r->getXmlResponse();
-    	return $s;
+    	$r = new XmlTestResponse();  // inicializez clasa
+    	$s = $r->getXmlResponse();   // atac metoda
+
+    	$response->write($s);
+    	$response = $response->withHeader('Content-Type', 'application/xml');
+    	return $response;
     	
     }
 	
