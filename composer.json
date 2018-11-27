@@ -1,0 +1,12 @@
+{
+    "require": {
+        "slim/slim": "^3.0", 
+        "filp/whoops": "2.1.5", 
+        "monolog/monolog": ">=1.0"
+    }, 
+    "autoload": {
+    	"psr-4": {
+    		"Blueair\\": "blueair"
+    	}
+    }
+}
