@@ -48,7 +48,6 @@ class XmlTestResponse
                                                     <ClassOfService>Y</ClassOfService>
                                                     <ClassType />
                                                    <RuleTariff />
-                                                    <CarrierCode>1L</CarrierCode>
                                                     <PaxFares>
                                                         <PaxFare>
                                                             <State 
