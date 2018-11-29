@@ -49,7 +49,6 @@ class XmlTestResponse
                                                     <ClassType />
                                                    <RuleTariff />
                                                     <CarrierCode>1L</CarrierCode>
-                                                    <FareClassOfService>Y</FareClassOfService>
                                                     <FareStatus>Default</FareStatus>
                                                     <FareApplicationType>Route</FareApplicationType>
                                                     <OriginalClassOfService>Y</OriginalClassOfService>
