@@ -210,7 +210,7 @@ class XmlTestResponse
                                                 </Leg>
                                             </Legs>
                                             <PaxBags />
-                                            <PaxSeats /
+                                            <PaxSeats />
 											<LegSSRs>
 											<LegSSR>
 											  <SSRNestCode>INF</SSRNestCode> 
