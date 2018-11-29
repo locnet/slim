@@ -8,7 +8,7 @@ class XmlTestResponse
 	private $string = '<?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s = "http://schemas.xmlsoap.org/soap/envelope/">
         
-                <Schedules>
+                
                     <ArrayOfJourneyDateMarket>
                         <JourneyDateMarket>
                             <DepartureDate>2010-02-21T00:00:00</DepartureDate>
@@ -309,7 +309,7 @@ class XmlTestResponse
                             </Journeys>
                         </JourneyDateMarket>
                     </ArrayOfJourneyDateMarket>
-                </Schedules>
+                
 </s:Envelope>';
 
 	public function getXmlResponse()
