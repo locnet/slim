@@ -144,90 +144,10 @@ class XmlTestResponse
                                                     <Status>Active</Status>
                                                 </Fare>
                                             </Fares>
-                                            <Legs>
-                                                <Leg>
-                                                    <State 
-                    xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
-                                                    <ArrivalStation>DEN</ArrivalStation>
-                                                    <DepartureStation>SLC</DepartureStation>
-                                                    <SegmentType />
-                                                    <STA>2009-07-23T03:00:00</STA>
-                                                    <STD>2009-07-23T00:00:00</STD>
-                                                    <International>false</International>
-                                                    <FlightDesignator 
-                    xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
-                                                        <a:CarrierCode>1L</a:CarrierCode>
-                                                        <a:FlightNumber> 427</a:FlightNumber>
-                                                        <a:OpSuffix></a:OpSuffix>
-                                                    </FlightDesignator>
-                                                    <LegInfo>
-                                                        <State 
-                    xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
-                                                        <AdjustedCapacity>60</AdjustedCapacity>
-                                                        <EquipmentType>WOO</EquipmentType>
-                                                        <EquipmentTypeSuffix>DY</EquipmentTypeSuffix>
-                                                        <ArrivalTerminal />
-                                                        <ArrvLTV>60</ArrvLTV>
-                                                        <Capacity>100</Capacity>
-                                                        <CodeShareIndicator></CodeShareIndicator>
-                                                        <DepartureTerminal />
-                                                        <DeptLTV>180</DeptLTV>
-                                                        <ETicket>true</ETicket>
-                                                       <FlifoUpdated>false</FlifoUpdated>
-                                                        <IROP>false</IROP>
-                                                        <Status>Normal</Status>
-                                                        <Lid>80</Lid>
-                                                        <OnTime></OnTime>
-                                                        <PaxSTA>2009-07-23T03:00:00</PaxSTA>
-                                                        <PaxSTD>2009-07-23T00:00:00</PaxSTD>
-                                                        <PRBCCode>WALLEN</PRBCCode>
-                                                        <ScheduleServiceType>J</ScheduleServiceType>
-                                                        <Sold>0</Sold>
-                                                        <OutMoveDays>0</OutMoveDays>
-                                                        <BackMoveDays>0</BackMoveDays>
-                                                        <LegNests />
-                                                        <LegSSRs />
-                                                        <OperatingFlightNumber>
-                                                         </OperatingFlightNumber>
-                                                        <OperatedByText />
-                                                        <OperatingCarrier />
-                                                        <OperatingOpSuffix></OperatingOpSuffix>
-                                                        <SubjectToGovtApproval>false
-                                                          </SubjectToGovtApproval>
-                                                        <MarketingCode />
-                                                        <ChangeOfDirection>false</ChangeOfDirection>
-                                                        <MarketingOverride>false</MarketingOverride>
-                                                    </LegInfo>
-                                                    <OperationsInfo i:nil="true" />
-                                                </Leg>
-                                            </Legs>
+                                           
                                             <PaxBags />
                                             <PaxSeats />
-											<LegSSRs>
-											<LegSSR>
-											  <SSRNestCode>INF</SSRNestCode> 
-											  <SSRLid>25</SSRLid> 
-											  <SSRSold>0</SSRSold>
-											  <SSRValueSold>0</SSRValueSold> 
-											  </LegSSR>
-											<LegSSR>
-											  <SSRNestCode>PETC</SSRNestCode>
-											  <SSRLid>15</SSRLid> 
-											  <SSRSold>0</SSRSold>
-											  <SSRValueSold>0</SSRValueSold> 
-											  </LegSSR>
-											<LegSSR>
-											  <SSRNestCode>SPT</SSRNestCode> 
-											  <SSRLid>15</SSRLid> 
-											  <SSRSold>0</SSRSold> 
-											  <SSRValueSold>0</SSRValueSold> 
-											  </LegSSR>
-											<LegSSR>
-											  <SSRNestCode>STRD</SSRNestCode> 
-											  <SSRLid>3</SSRLid>
-											  <SSRSold>0</SSRSold>
-											  <SSRValueSold>0</SSRValueSold> 
-											</LegSSR></LegSSRs>
+											
                                             <PaxSegments />
                                             <PaxTickets />
                                             <PaxSeatPreferences i:nil="true" />
@@ -264,62 +184,7 @@ class XmlTestResponse
                                             <XrefFlightDesignator i:nil="true" 
                 xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common" />
                                             <Fares />
-                                            <Legs>
-                                                <Leg>
-                                                    <State 
-                xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
-                                                    <ArrivalStation>DEN</ArrivalStation>
-                                                    <DepartureStation>SLC</DepartureStation>
-                                                    <SegmentType />
-                                                    <STA>2009-07-24T00:00:00</STA>
-                                                    <STD>2009-07-23T00:00:00</STD>
-                                                    <International>false</International>
-                                                    <FlightDesignator 
-                xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
-                                                        <a:CarrierCode>1L</a:CarrierCode>
-                                                        <a:FlightNumber> 428</a:FlightNumber>
-                                                        <a:OpSuffix></a:OpSuffix>
-                                                    </FlightDesignator>
-                                                    <LegInfo>
-                                                        <State 
-               xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
-                                                        <AdjustedCapacity>10</AdjustedCapacity>
-                                                        <EquipmentType>WAG</EquipmentType>
-                                                        <EquipmentTypeSuffix>ON</EquipmentTypeSuffix>
-                                                        <ArrivalTerminal />
-                                                        <ArrvLTV>240</ArrvLTV>
-                                                        <Capacity>144</Capacity>
-                                                        <CodeShareIndicator></CodeShareIndicator>
-                                                        <DepartureTerminal />
-                                                        <DeptLTV>240</DeptLTV>
-                                                        <ETicket>true</ETicket>
-                                                        <FlifoUpdated>false</FlifoUpdated>
-                                                        <IROP>false</IROP>
-                                                        <Status>Normal</Status>
-                                                        <Lid>10</Lid>
-                                                        <OnTime>9</OnTime>
-                                                        <PaxSTA>2009-07-24T00:00:00</PaxSTA>
-                                                        <PaxSTD>2009-07-23T00:00:00</PaxSTD>
-                                                        <PRBCCode>STAWAGON</PRBCCode>
-                                                        <ScheduleServiceType>J</ScheduleServiceType>
-                                                        <Sold>0</Sold>
-                                                        <OutMoveDays>0</OutMoveDays>
-                                                        <BackMoveDays>0</BackMoveDays>
-                                                        <LegNests />
-                                                        <LegSSRs />
-                                                       <OperatingFlightNumber></OperatingFlightNumber>
-                                                        <OperatedByText />
-                                                        <OperatingCarrier />
-                                                        <OperatingOpSuffix></OperatingOpSuffix>
-                                                        <SubjectToGovtApproval>false
-                                                          </SubjectToGovtApproval>
-                                                        <MarketingCode />
-                                                        <ChangeOfDirection>false</ChangeOfDirection>
-                                                        <MarketingOverride>false</MarketingOverride>
-                                                    </LegInfo>
-                                                    <OperationsInfo i:nil="true" />
-                                                </Leg>
-                                            </Legs>
+                                            
                                             <PaxBags />
                                             <PaxSeats />
                                             <PaxSSRs />
