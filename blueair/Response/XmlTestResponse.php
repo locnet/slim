@@ -49,7 +49,6 @@ class XmlTestResponse
                                                     <ClassType />
                                                    <RuleTariff />
                                                     <CarrierCode>1L</CarrierCode>
-                                                    <RuleNumber>1000</RuleNumber>
                                                     <FareBasisCode>YGROUP</FareBasisCode>
                                                     <FareSequence>3</FareSequence>
                                                     <FareClassOfService>Y</FareClassOfService>
@@ -241,12 +240,10 @@ class XmlTestResponse
                                             <PaxSeatPreferences i:nil="true" />
                                             <SalesDate>9999-12-31T00:00:00Z</SalesDate>
                                             <PaxScores />
-                                            <SegmentSellKey>1L~ 427~ ~~SLC~07/23/2009 00:00~
-                                              DEN~07/23/2009 03:00</SegmentSellKey>
+            <SegmentSellKey>1L~ 427~ ~~SLC~07/23/2009 00:00~DEN~07/23/2009 03:00</SegmentSellKey>
                                         </Segment>
                                     </Segments>
-                                    <JourneySellKey>1L~ 427~ ~~SLC~07/23/2009 00:00~
-                                     DEN~07/23/2009 03:00</JourneySellKey>
+     <JourneySellKey>1L~ 427~ ~~SLC~07/23/2009 00:00~DEN~07/23/2009 03:00</JourneySellKey>
                                 </Journey>
                                 <Journey>
                                     <State 
@@ -337,12 +334,10 @@ class XmlTestResponse
                                             <PaxSeatPreferences i:nil="true" />
                                             <SalesDate>9999-12-31T00:00:00Z</SalesDate>
                                             <PaxScores />
-                                            <SegmentSellKey>1L~ 428~ ~~SLC~07/23/2009 00:00~DEN~
-                                             07/24/2009 00:00</SegmentSellKey>
+              <SegmentSellKey>1L~ 428~ ~~SLC~07/23/2009 00:00~DEN~07/24/2009 00:00</SegmentSellKey>
                                         </Segment>
                                     </Segments>
-                                    <JourneySellKey>1L~ 428~ ~~SLC~07/23/2009 00:00~DEN~07/24/2009 
-                                     00:00</JourneySellKey>
+             <JourneySellKey>1L~ 428~ ~~SLC~07/23/2009 00:00~DEN~07/24/2009 00:00</JourneySellKey>
                                 </Journey>
                             </Journeys>
                         </JourneyDateMarket>
