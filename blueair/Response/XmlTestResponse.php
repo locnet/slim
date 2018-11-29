@@ -5,7 +5,7 @@ namespace Blueair\Response;
 
 class XmlTestResponse
 {
-	private $string = '<?xml encoding="utf-8"?>
+	private $string = '<?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s = "http://schemas.xmlsoap.org/soap/envelope/">
     <s:Body>
         <GetAvailabilityByTripResponse 
