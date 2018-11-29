@@ -28,7 +28,6 @@ class XmlTestResponse
                                             <CabinOfService></CabinOfService>
                                             <ChangeReasonCode />
                                             <DepartureStation>SLC</DepartureStation>
-                                            <PriorityCode />
                                             <SegmentType />
                                             <STA>2009-07-23T03:00:00</STA>
                                             <STD>2009-07-23T00:00:00</STD>
@@ -252,7 +251,6 @@ class XmlTestResponse
                                             <CabinOfService></CabinOfService>
                                             <ChangeReasonCode />
                                             <DepartureStation>SLC</DepartureStation>
-                                            <PriorityCode />
                                             <SegmentType />
                                             <STA>2009-07-24T00:00:00</STA>
                                             <STD>2009-07-23T00:00:00</STD>
