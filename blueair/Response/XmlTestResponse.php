@@ -151,6 +151,7 @@ class XmlTestResponse
                     xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
                                                     <ArrivalStation>DEN</ArrivalStation>
                                                     <DepartureStation>SLC</DepartureStation>
+                                                    <SegmentType />
                                                     <STA>2009-07-23T03:00:00</STA>
                                                     <STD>2009-07-23T00:00:00</STD>
                                                     <International>false</International>
@@ -271,6 +272,7 @@ class XmlTestResponse
                 xmlns="http://schemas.navitaire.com/WebServices/DataContracts/Common">Clean</State>
                                                     <ArrivalStation>DEN</ArrivalStation>
                                                     <DepartureStation>SLC</DepartureStation>
+                                                    <SegmentType />
                                                     <STA>2009-07-24T00:00:00</STA>
                                                     <STD>2009-07-23T00:00:00</STD>
                                                     <International>false</International>
