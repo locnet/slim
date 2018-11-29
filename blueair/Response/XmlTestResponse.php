@@ -8,13 +8,7 @@ class XmlTestResponse
 	private $string = '<?xml version="1.0" encoding="utf-8"?>
 <s:Envelope xmlns:s = "http://schemas.xmlsoap.org/soap/envelope/">
     <s:Body>
-        <GetAvailabilityByTripResponse 
-        xmlns = "http://schemas.navitaire.com/WebServices/ServiceContracts/BookingService">
-            <GetTripAvailabilityResponse 
-            xmlns = "http://schemas.navitaire.com/WebServices/DataContracts/Booking" 
-            xmlns:i = "http://www.w3.org/2001/XMLSchema-instance">
-                <OtherServiceInfoList 
-                xmlns:a = "http://schemas.navitaire.com/WebServices/DataContracts/Common"/>
+        
                 <Schedules>
                     <ArrayOfJourneyDateMarket>
                         <JourneyDateMarket>
@@ -317,8 +311,6 @@ class XmlTestResponse
                         </JourneyDateMarket>
                     </ArrayOfJourneyDateMarket>
                 </Schedules>
-                </GetTripAvailabilityResponse>
-        </GetAvailabilityByTripResponse>
     </s:Body>
 </s:Envelope>';
 
