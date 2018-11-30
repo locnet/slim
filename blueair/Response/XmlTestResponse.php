@@ -151,7 +151,6 @@ class XmlTestResponse
                                             <PaxTickets />
                                             <PaxSeatPreferences i:nil="true" />
                                             <SalesDate>9999-12-31T00:00:00Z</SalesDate>
-                                            <PaxScores />
             <SegmentSellKey>1L~ 427~ ~~SLC~07/23/2009 00:00~DEN~07/23/2009 03:00</SegmentSellKey>
                                         </Segment>
                                     </Segments>
@@ -191,7 +190,6 @@ class XmlTestResponse
                                             <PaxTickets />
                                             <PaxSeatPreferences i:nil="true" />
                                             <SalesDate>9999-12-31T00:00:00Z</SalesDate>
-                                            <PaxScores />
               <SegmentSellKey>1L~ 428~ ~~SLC~07/23/2009 00:00~DEN~07/24/2009 00:00</SegmentSellKey>
                                         </Segment>
                                     </Segments>
