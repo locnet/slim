@@ -205,7 +205,7 @@ class XmlTestResponse
                                                                    <ChargeCode />
                                                                     <TicketCode />
                                                                     <CurrencyCode>USD</CurrencyCode>
-                                                                    <Amount>5.0000</Amount>
+                                                                    <Amount>25.0000</Amount>
                                                                     <ChargeDetail />
                                                                     <ForeignCurrencyCode>USD
                                                                      </ForeignCurrencyCode>
@@ -346,11 +346,11 @@ class XmlTestResponse
                                                                    <ChargeCode />
                                                                     <TicketCode />
                                                                     <CurrencyCode>USD</CurrencyCode>
-                                                                    <Amount>5.0000</Amount>
+                                                                    <Amount>55.0000</Amount>
                                                                     <ChargeDetail />
                                                                     <ForeignCurrencyCode>USD
                                                                      </ForeignCurrencyCode>
-                                                                    <ForeignAmount>5.0000</ForeignAmount>
+                                                                    <ForeignAmount>55.0000</ForeignAmount>
                                                                 </BookingServiceCharge>
                                                                 <BookingServiceCharge>
                                                                     <State 
@@ -487,11 +487,11 @@ class XmlTestResponse
                                                                    <ChargeCode />
                                                                     <TicketCode />
                                                                     <CurrencyCode>USD</CurrencyCode>
-                                                                    <Amount>5.0000</Amount>
+                                                                    <Amount>85.0000</Amount>
                                                                     <ChargeDetail />
                                                                     <ForeignCurrencyCode>USD
                                                                      </ForeignCurrencyCode>
-                                                                    <ForeignAmount>5.0000</ForeignAmount>
+                                                                    <ForeignAmount>85.0000</ForeignAmount>
                                                                 </BookingServiceCharge>
                                                                 <BookingServiceCharge>
                                                                     <State 
