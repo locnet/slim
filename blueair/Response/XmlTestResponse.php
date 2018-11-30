@@ -32,11 +32,10 @@ class XmlTestResponse
                                             <STA>2009-07-23T03:00:00</STA>
                                             <STD>2009-07-23T00:00:00</STD>
                                             <International>false</International>
-                                            <FlightDesignator 
-                    xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
-                                                <a:CarrierCode>1L</a:CarrierCode>
-                                                <a:FlightNumber>427</a:FlightNumber>
-                                                <a:OpSuffix></a:OpSuffix>
+                                            <FlightDesignator>
+                                                <CarrierCode>1L</CarrierCode>
+                                                <FlightNumber>427</FlightNumber>
+                                                <OpSuffix></OpSuffix>
                                             </FlightDesignator>
                                             <XrefFlightDesignator i:nil="true" 
                     xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common" />
@@ -177,9 +176,9 @@ class XmlTestResponse
                                             <International>false</International>
                                             <FlightDesignator 
                 xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common">
-                                                <a:CarrierCode>1L</a:CarrierCode>
-                                                <a:FlightNumber> 428</a:FlightNumber>
-                                                <a:OpSuffix></a:OpSuffix>
+                                                <CarrierCode>1L</CarrierCode>
+                                                <FlightNumber> 428</FlightNumber>
+                                                <OpSuffix></OpSuffix>
                                             </FlightDesignator>
                                             <XrefFlightDesignator i:nil="true" 
                 xmlns:a="http://schemas.navitaire.com/WebServices/DataContracts/Common" />
